@@ -14,7 +14,7 @@
   "unpkg": "./dist/await-q.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "microbundle",
+    "build": "microbundle --no-sourcemap",
     "release": "npm run build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "keywords": [],
