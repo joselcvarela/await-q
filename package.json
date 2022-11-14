@@ -1,0 +1,25 @@
+{
+  "name": "await-queue",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "source": "index.js",
+  "exports": {
+    "require": "./dist/await-queue.cjs",
+    "import": "./dist/await-queue.mjs",
+    "default": "./dist/await-queue.mjs"
+  },
+  "main": "./dist/await-queue.cjs",
+  "module": "./dist/await-queue.mjs",
+  "unpkg": "./dist/await-queue.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
