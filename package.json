@@ -1,17 +1,17 @@
 {
-  "name": "await-queue",
+  "name": "await-q",
   "version": "1.0.1",
   "description": "",
   "type": "module",
   "source": "index.js",
   "exports": {
-    "require": "./dist/await-queue.cjs",
-    "import": "./dist/await-queue.mjs",
-    "default": "./dist/await-queue.mjs"
+    "require": "./dist/await-q.cjs",
+    "import": "./dist/await-q.mjs",
+    "default": "./dist/await-q.mjs"
   },
-  "main": "./dist/await-queue.cjs",
-  "module": "./dist/await-queue.mjs",
-  "unpkg": "./dist/await-queue.umd.js",
+  "main": "./dist/await-q.cjs",
+  "module": "./dist/await-q.mjs",
+  "unpkg": "./dist/await-q.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle",

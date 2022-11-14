@@ -1,4 +1,4 @@
-class AwaitQueue {
+class AwaitQ {
   queue = [];
   listeners = {};
 
@@ -34,4 +34,4 @@ class AwaitQueue {
   };
 }
 
-export { AwaitQueue };
+export { AwaitQ };
